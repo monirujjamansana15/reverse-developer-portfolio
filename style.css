@@ -14,7 +14,9 @@ p{
 }
 .header-content{
     width: 50%;
+    margin-right: 5%;
 }
+
 .header-content img{
     width: 85%;
 }
@@ -34,4 +36,26 @@ color: orange;
 }
 h1{
     font-size: 50px;
+}
+.middle-sec{
+    padding-top: 125px;
+    display: flex;
+    background-image: url(images/reverse-dream-bg.png);
+    background-repeat: no-repeat;
+    
+    background-position: right;
+}
+.middle-content{
+    width: 50%;
+    margin-right: 5%;
+    
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    color: orange;
+}
+#middle-style{
+    margin-left: 5%;
 }
