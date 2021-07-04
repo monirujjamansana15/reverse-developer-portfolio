@@ -29,7 +29,8 @@ p{
     border-radius: 08px;
 }
 .link-sec:hover {
-   background-image: linear-gradient(blue, cyan);
+   background-image: linear-gradient(rgb(252, 81, 50), rgb(240, 2, 42));
+   transition: 0.3s;
 }
 .header-style{
 color: orange;
@@ -50,6 +51,9 @@ h1{
     margin-right: 5%;
     
 }
+.middle-content img{
+    width: 85%;
+}
 h2{
     font-size: 40px;
 }
@@ -58,4 +62,39 @@ h3{
 }
 #middle-style{
     margin-left: 5%;
+}
+.lower-sec h2{
+    font-size: 40px;
+}
+.lower-combined{
+    display: flex;
+    padding-top: 2px;
+    padding-bottom: 200px;
+}
+.lower-content{
+    width: 44%;
+    margin-right: 3%;
+    margin-left: 3%;
+    box-shadow: 10px 10px 40px grey;
+    padding: 20px;
+    border-left: 7px solid;
+    border-radius: 8px;
+    
+}
+.lower-sec{
+    background-image: url(images/reverse-exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 80px;
+}
+#lower-border-style{
+border-image: linear-gradient(tomato, rgb(250, 76, 105)) 30;
+border-image-slice: 1;
+}
+#border-style{
+    border-image: linear-gradient(blue, cyan) 30;
+border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
